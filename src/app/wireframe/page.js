@@ -1,6 +1,6 @@
 "use client";
 import { useEffect, useState } from "react";
-import "./globals.css";
+import "@/style/wireframe.css";
 
 const page = () => {
   const [posts, setPosts] = useState(null);
